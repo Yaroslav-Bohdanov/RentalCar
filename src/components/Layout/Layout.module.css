@@ -1,0 +1,56 @@
+.activeLink {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #0b44cd;
+  font-family: "Manrope", sans-serif;
+}
+
+.noActiveLink {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #101828;
+  font-family: "Manrope", sans-serif;
+}
+
+.logo {
+  color: #101828;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.logo > span {
+  color: #3470ff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 30px;
+  background-color: #f2f4f7;
+  @media screen and (min-width: 768px) {
+    padding: 26px 60px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 26px 120px;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+  @media screen and (min-width: 1440px) {
+    gap: 32px;
+  }
+}

@@ -1,0 +1,53 @@
+.right_info {
+  margin-left: 0;
+  margin-top: 0;
+  @media screen and (min-width: 768px) {
+    margin-left: 72px;
+    margin-top: 104px;
+  }
+}
+
+.name_box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 8px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+  }
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #101828;
+}
+
+.id {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #3470ff;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  margin-bottom: 68px;
+  max-width: 488px;
+}

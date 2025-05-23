@@ -1,0 +1,37 @@
+.btn {
+  width: 156px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  font-family: "Manrope", sans-serif;
+  border: 1px solid #3470ff;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 124px;
+}
+
+.scrollbar {
+  width: 8px;
+}
+
+.scrollbar_track {
+  background: #f7f7f7;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.scrollbar_thumb {
+  background: #dadde1;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.scrollbar_thumb:hover {
+  background: #8d929a;
+}

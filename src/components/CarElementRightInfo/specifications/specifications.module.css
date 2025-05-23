@@ -1,0 +1,89 @@
+.specifications_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 110px;
+}
+
+.specifications_box > p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.year > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+}
+
+.icon_calendar {
+  width: 16px;
+  height: 16px;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.type > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+}
+
+.icon_car {
+  width: 16px;
+  height: 16px;
+}
+
+.consumption {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.consumption > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.icon_fuel_pump {
+  width: 16px;
+  height: 16px;
+}
+
+.engine_size {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.engine_size > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.icon_gear {
+  width: 16px;
+  height: 16px;
+}

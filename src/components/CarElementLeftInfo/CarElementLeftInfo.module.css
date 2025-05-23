@@ -1,0 +1,138 @@
+.textarea {
+  resize: none;
+}
+
+.left_info {
+  margin-top: 84px;
+  margin-bottom: 104px;
+}
+
+.img_container {
+  overflow: hidden;
+  max-width: 640px;
+  max-height: 512px;
+  border-radius: 19px;
+  margin-bottom: 40px;
+}
+
+.form_container {
+  padding: 32px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  max-width: 640px;
+}
+
+.form_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.form_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 20px;
+  background: #f7f7f7;
+  margin-bottom: 16px;
+  color: #101828;
+  margin-bottom: 16px;
+}
+.input:focus {
+  border: 2px solid black !important;
+}
+.input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+  font-family: "Manrope", sans-serif;
+}
+
+.textarea {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 20px 56px 20px;
+  background: #f7f7f7;
+  margin-bottom: 24px;
+}
+
+.textarea::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+  font-family: "Manrope", sans-serif;
+}
+
+.button {
+  border-radius: 12px;
+  width: 156px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3470ff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+.date_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.date_placeholder {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #f7f7f7;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+.datePickerWrapper {
+  width: 100%;
+}
+.date_input::-webkit-datetime-edit {
+  color: #8d929a;
+}
+
+.date_input::-webkit-datetime-edit-fields-wrapper {
+  color: #8d929a;
+}
+
+.date_input:invalid::-webkit-datetime-edit {
+  color: #8d929a;
+}
+
+.date_input:valid::-webkit-datetime-edit {
+  color: #8d929a;
+}
