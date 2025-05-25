@@ -1,9 +1,8 @@
-/* === NAVIGATION ICONS (ARROWS) === */
 .react-datepicker__navigation-icon::before,
 .react-datepicker__year-read-view--down-arrow,
 .react-datepicker__month-read-view--down-arrow,
 .react-datepicker__month-year-read-view--down-arrow {
-  border-color: #3470ff !important; /* Змінюємо колір на синій, як обведення */
+  border-color: #3470ff !important;
   border-style: solid;
   border-width: 3px 3px 0 0;
   content: "";
@@ -14,7 +13,6 @@
   width: 9px;
 }
 
-/* === CALENDAR ROOT === */
 .react-datepicker {
   border: 1px solid #3470ff !important;
   border-radius: 12px !important;
@@ -23,7 +21,6 @@
   font-family: "Inter", sans-serif !important;
 }
 
-/* === HEADER === */
 .react-datepicker__header {
   background-color: #ffffff !important;
   border-bottom: 1px solid #3470ff !important;
@@ -33,10 +30,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative; /* Додаємо для позиціонування псевдоелемента */
+  position: relative;
 }
 
-/* === MONTH TITLE === */
 .react-datepicker__current-month {
   font-family: var(--second-family);
   font-weight: 600;
@@ -46,10 +42,9 @@
   color: var(--gray);
 }
 
-/* === NAVIGATION BUTTONS === */
 .react-datepicker__navigation {
   top: 14px !important;
-  height: 20px !important; /* Додаємо для кращого розміру стрілок */
+  height: 20px !important;
   width: 20px !important;
 }
 
@@ -61,16 +56,14 @@
   border-left-color: #3470ff !important;
 }
 
-/* Перевизначаємо псевдоелементи стрілок (додаткова перевірка) */
 .react-datepicker__navigation--previous::before {
-  border-right-color: #3470ff !important; /* Колір стрілки */
+  border-right-color: #3470ff !important;
 }
 
 .react-datepicker__navigation--next::before {
-  border-left-color: #3470ff !important; /* Колір стрілки */
+  border-left-color: #3470ff !important;
 }
 
-/* === WEEKDAY HEADERS === */
 .react-datepicker__day-name {
   font-family: "Inter", sans-serif !important;
   font-weight: 600;
@@ -80,7 +73,6 @@
   color: gray !important;
 }
 
-/* === DAY CELLS === */
 .react-datepicker__day {
   font-family: "Inter", sans-serif !important;
   font-weight: 600 !important;
@@ -98,26 +90,23 @@
 .react-datepicker__day--outside-month {
   color: gray !important;
 }
-/* === TODAY === */
+
 .react-datepicker__day--today {
   background-color: #e5e7eb !important;
   color: #101828 !important;
 }
 
-/* === SELECTED === */
 .react-datepicker__day--selected,
 .react-datepicker__day--keyboard-selected {
   background-color: #3470ff !important;
   color: #ffffff !important;
 }
 
-/* === DISABLED === */
 .react-datepicker__day--disabled {
   color: #d1d5db !important;
   cursor: not-allowed !important;
 }
 
-/* === HOVER === */
 .react-datepicker__day:hover {
   background-color: #3470ff !important;
   color: #ffffff !important;
